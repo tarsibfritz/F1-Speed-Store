@@ -1,0 +1,57 @@
+.cards_container{
+    text-align: center;
+    color: var(--textColor);
+}
+
+.cards_container1{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
+}
+
+.card{
+    max-width: 15rem;
+    max-height: 30rem;
+}
+
+
+
+
+
+
+
+/*
+
+.card {
+    max-width: 15rem; 
+    max-height: 30rem;
+}
+
+.carousel-item .row.d-flex.flex-nowrap > .col {
+    margin-right: 10px; 
+}
+.carousel-item .row.d-flex.flex-nowrap > .col:last-child {
+    margin-right: 0;
+} 
+
+.card-body > a{
+    border-radius: 20px;
+    background-color: var(--mainColor);
+}
+
+.card-body > a:hover{
+    border-radius: 20px;
+    background-color: var(--backgroundColor);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: auto;
+    margin-right: 1em; 
+    margin-left: 1em;
+}
+
+.carousel-control-prev {
+    margin-left: 1em;
+}
+*/

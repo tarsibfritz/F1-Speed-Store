@@ -1,0 +1,30 @@
+#about{
+    width: 100%;
+}
+
+.about_content{
+    display: flex;
+    margin: 2.5em 10em;
+    color: var(--textColor);
+    text-align: center;
+}
+
+.about_content >.slide > .carousel-inner{
+    display: inline-block;
+    width: 20em;
+    border: 3px solid var(--borderBox);
+    border-radius: 6px;
+}
+
+.about_text h2{
+    font-weight: bolder;
+    font-size: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.7em;
+}
+
+.about_text p{
+    font-size: 1.3em;
+    padding-right: 4em;
+    padding-left: 4em;
+}

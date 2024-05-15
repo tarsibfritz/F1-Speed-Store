@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+body{
+    background-color: var(--backgroundColor);
+}
+
+/* Header & Navbar*/
+.header_container{
+    width: 100%;
+    height: 32.6em;
+    background-image: url(/assets/images/background-nav.png);
+}
+
+.navbar_content{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.navbar_content > a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 5em;
+}
+
+.navbar_content > a > img{
+    width: 3.5em;
+    margin-top: 0.3em;
+}
+
+.navbar_content > a > span{
+    color: var(--textColor);
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 0.3em;
+    margin-left: 0.4em;
+}
+
+/* Navbar - List */
+.navbar_list > ul{
+    display: flex;
+    margin-top: 1.8rem;
+    margin-right: 5em;
+    list-style: none;
+}
+
+.navbar_list > ul > li {
+    margin-right: 20px;
+}
+
+.navbar_list > ul > li > a{
+    text-decoration: none;
+    color: var(--textColor);
+    font-weight: bold;
+}
+
+/* Header - Subtitle */
+.header_subtitle{
+    color: var(--textColor);
+    font-size: 31px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.header_subtitle span{
+    color: var(--mainColor);
+    font-weight: bolder;
+}
