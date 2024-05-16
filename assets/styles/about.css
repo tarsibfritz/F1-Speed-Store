@@ -30,3 +30,11 @@
     padding-right: 4em;
     padding-left: 4em;
 }
+
+.about_text span{
+    padding: 0 2px;
+    font-weight: bold;
+    color: var(--textColor);
+    background-color: var(--mainColorOpacity);
+    border-radius: 3px;
+}
