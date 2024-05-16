@@ -6,7 +6,15 @@
     font-weight: bolder;
     font-size: 2.3em;
     margin-top: 1.5em;
-    margin-bottom: 0.7em;
+    margin-bottom: 0.4em;
+}
+
+.cards{
+    background-color: var(--backgroundColor);
+}
+
+.cards h2{
+    padding: 2rem;
 }
 
 .cards_container{
@@ -25,38 +33,3 @@
     width: 60rem;
     margin: 0 7%;
 }
-
-/*
-
-.card {
-    max-width: 15rem; 
-    max-height: 30rem;
-}
-
-.carousel-item .row.d-flex.flex-nowrap > .col {
-    margin-right: 10px; 
-}
-.carousel-item .row.d-flex.flex-nowrap > .col:last-child {
-    margin-right: 0;
-} 
-
-.card-body > a{
-    border-radius: 20px;
-    background-color: var(--mainColor);
-}
-
-.card-body > a:hover{
-    border-radius: 20px;
-    background-color: var(--backgroundColor);
-}
-
-.carousel-control-prev, .carousel-control-next {
-    width: auto;
-    margin-right: 1em; 
-    margin-left: 1em;
-}
-
-.carousel-control-prev {
-    margin-left: 1em;
-}
-*/

@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: var(--backgroundColor);
+    background-color: var(--lightBlue);
 }
 
 /* Header & Navbar*/
@@ -58,21 +58,4 @@ body{
     text-decoration: none;
     color: var(--textColor);
     font-weight: bold;
-}
-
-/* Header - Subtitle */
-.header_subtitle{
-    color: var(--textColor);
-    font-size: 31px;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 6em;
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-.header_subtitle span{
-    color: var(--mainColor);
-    font-weight: bolder;
 }

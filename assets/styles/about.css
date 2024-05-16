@@ -1,5 +1,7 @@
 #about{
     width: 100%;
+    padding: 2rem;
+    background-color: var(--lightBlue);
 }
 
 .about_content{
