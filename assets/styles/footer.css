@@ -1,0 +1,44 @@
+.footer_container{
+    width: 100%;
+    padding: 4rem;
+    background-color: var(--lightBlue);
+}
+
+.footer_content{
+    margin-left: 5rem;
+}
+
+.footer_content h4{
+    color: var(--textColor);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.footer_content span{
+    color: var(--mainColor);
+}
+
+/* Social Medias */
+.social-media a{
+    text-decoration: none;
+    color: var(--textColor);
+    position: absolute;
+    margin-top: 20px;
+}
+
+#email img{
+    height: 20.4px;
+    margin-right: 5px;
+}
+
+#linkedin img{
+    position: absolute;
+    bottom: 0.5rem;
+    right: -55rem;
+}
+
+#github img{
+    position: absolute;
+    bottom: 0.5rem;
+    right: -57rem;
+}
